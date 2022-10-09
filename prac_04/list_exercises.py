@@ -20,7 +20,8 @@ def number_details(numbers):
     print(f"The largest number is {max(numbers)}")
     print(f"The average of the numbers is {(sum(numbers))/(len(numbers))}")
 
-def security_check()
+
+def security_check():
     usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye',
                  'swei45', 'BaseInterpreterInterface', 'BaseStdIn', 'Command',
                  'ExecState', 'InteractiveConsole', 'InterpreterInterface',
@@ -32,3 +33,4 @@ def security_check()
     else:
         print("Access denied")
 
+security_check()
