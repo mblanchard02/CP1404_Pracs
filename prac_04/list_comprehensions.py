@@ -51,4 +51,4 @@ for i in range (len(full_names)):
     last = full_names[i].split()
     if len(full_names[i]) > 11:
         long_lastname.append(last[1])
-print(" ".join(sorted(long_lastname)))
+print(", ".join(sorted(long_lastname)))
