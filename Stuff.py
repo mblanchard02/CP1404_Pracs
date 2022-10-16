@@ -8,15 +8,25 @@
 #     print("Invalid number")
 
 
-from operator import itemgetter
+# from operator import itemgetter
+#
+# score_pairs = [['Derek', 7], ['Carrie', 8], ['Bob', 6]]
+#
+# new_score = input("Please enter a name and a score: ") .split()
+#
+# new_score[1] = int(new_score[1])
+#
+# score_pairs.append(new_score)
+# score_pairs.sort(key = itemgetter(1), reverse = True)
+#
+# print(score_pairs)
+# x = str(int('1.0'))
+# x[-1] = '2'
 
-score_pairs = [['Derek', 7], ['Carrie', 8], ['Bob', 6]]
+# words = ["aye", "bee", "sea", "bee"]
+# words.remove("bee")
+# print(words.pop())
 
-new_score = input("Please enter a name and a score: ") .split()
-
-new_score[1] = int(new_score[1])
-
-score_pairs.append(new_score)
-score_pairs.sort(key = itemgetter(1), reverse = True)
-
-print(score_pairs)
+# things = list("one two three")
+# print("{}-{}".format(*things))
+print("*".join([len(word) for word in "one*two*three".split('*')]))
