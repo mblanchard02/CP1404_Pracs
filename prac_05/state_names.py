@@ -15,7 +15,7 @@ while state_code != "":
         print(state_code, "is", CODE_TO_NAME[state_code])
     elif state_code == "ALL":
         for code in CODE_TO_NAME:
-            print(f"{code:3} {'is':2}", CODE_TO_NAME[code])
+            print(f"{code:3} {'is':4}", CODE_TO_NAME[code])
     else:
         print("Invalid short state")
     state_code = input("Enter short state: ").upper()
