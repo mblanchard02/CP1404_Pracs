@@ -17,6 +17,7 @@ def main():
     in_file = open('languages.csv', 'r')
     # File format is like: Language,Typing,Reflection,Year
     # 'Consume' the first line (header) - we don't need its contents
+
     in_file.readline()
     # All other lines are language data
     for line in in_file:
@@ -35,7 +36,6 @@ def main():
         languages.append(language)
     # Close the file as soon as we've finished reading it
     in_file.close()
-
     # Loop through and display all languages (using their str method)
     for language in languages:
         print(language)
