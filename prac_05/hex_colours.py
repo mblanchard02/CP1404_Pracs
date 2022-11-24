@@ -10,3 +10,4 @@ colour_name = input("Enter a colour name: ")
 while colour_name != "":
     print(f"The code for \"{colour_name}\" is {COLOUR_CODES.get(colour_name)}")
     colour_name = input("Enter a colour name: ")
+
