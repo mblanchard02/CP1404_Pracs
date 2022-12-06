@@ -29,4 +29,6 @@
 
 # things = list("one two three")
 # print("{}-{}".format(*things))
-print("*".join([len(word) for word in "one*two*three".split('*')]))
+# print("*".join([len(word) for word in "one*two*three".split('*')]))
+string = "CP1404 is good"
+print(string[::-1])
