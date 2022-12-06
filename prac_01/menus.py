@@ -13,7 +13,7 @@ while choice != "Q":
     elif choice == "G":
         print("Goodbye", name)
     else:
-        print("no valid")
+        print("Not valid")
     print(menu)
     choice = input(">>> ").upper()
 print("completed.")
